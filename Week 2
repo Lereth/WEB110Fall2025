@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--Ethan Schlereth, 09/08/35-->
+<html lang="en">
+	<head> <!--contains all the info that the browser needs to know-->
+	<title>Wireframe Basics</title>
+	<meta>
+	</head> 
+	<meta charset="utf-8">
+	</head> 
+	<body> <!--contains info that will show up on the page-->
+		<header>
+		<h1>Wireframe<h1>
+		</header>
+		<nav> <!-- navigation links-->
+			<a href="wireframe.html"> Home </a>&nbsp;&nbsp; <!-- relative hyperlink located within own website-->
+			<a href="images/cat.jpg"> Cat </a>&nbsp;&nbsp;  <!--looking inside a folder for images-->
+			<a href="../index.html"> Going back into a folder </a>&nbsp;
+		</nav>
+		  
+		  <hr>
+		  
+		  <main> 
+			<h2> This is a heading </h2>
+			<h3> This is a heading </h3>
+			<h4> This is a heading </h4>
+			<h5> This is a heading </h5>
+			<h6> This is a heading </h6>
+			
+			<br><br> <!-- line breaks, vertical space-->
+			
+			<p> this is <br><br> a paragraph. </p>
+			
+			<blockquote cite="www.google.com"> I am a quote! <blockquote>
+			
+			<p> This is an <em>example</em> of emphasis, <mark>marking</mark>, <abbr title="this is the full word">abbreviation</abbr>, <bdo dir="rtl">direction</bdo>, and <strong>strong</strong>. </p>
+			
+			<br>
+			
+			<a href="http://www.jccc.edu"target="_blank"> Here is a link to the JCCC website </a>
+			<!-- Absolute link, a link to external website. Target attribute opens in another tab.-->
+			
+			<div> <!--basically a container for stuff-->
+				<ol type="a"> <!-- ordered list, for things that need to be in order-->
+					<li>Item 1</li>
+					<li>Item 2</li>
+					<li>Item 3</li>
+				
+				</ol>
+				 
+				 <ul> <!-- unordered list, for things that dont matter-->
+					<li>Item 1</li>
+					<li>Item 2</li>
+					<li>Item 3</li>
+				 
+				 </ul> 	
+				 
+				 
+				 
+				 <dl> <!-- description list, for terms and definitions-->
+					<dt> description term 1</dt>
+					<dd> Description definition 1</dd>
+					<dt> Question 1</dt>
+					<dd> Answer 1> <dd>
+				 </dl>
+			</div>
+			
+		  </main>
+			<footer>
+			<small> Copyright &copy; Alexa &amp; Web 110 </small><br>
+			<a href="mailto:eschlere@stumail.jccc.edu"> email me! </a>
+			</footer>
+	</body>
+</html>
+		
+	
+</html>
