@@ -1,0 +1,162 @@
+/* Ethan Schlereth
+	November 2, 2025
+	Midterm Portfolio - styles sheet
+	*/
+
+* {box-sizing: border-box; } 
+html, body { margin: 0; padding: 0; }
+img, picture, video {max-width: 100%; height: auto; display: block;} 
+ul, ol { margin: 0 0 1em 0; padding-left: 1.25em;} 
+
+html { font-size: 100%; }
+
+/* "BODY SECTION */
+ 
+body {
+	background-color: #F3E5AB;
+	color: #000000;
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+}
+
+/* WRAPPER SECTION */
+
+#wrapper {
+	width: 90%;
+	max-width: 100%;
+	margin: 0 auto;
+  }
+
+/* HEADER SECTION */
+
+header { 
+	background-color: #C19A6B;
+	color: #FFFFFF;
+	padding: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border: 2px solid #A67C52;
+	text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: #C19A6B;
+	color: #FFFFFF;
+	padding: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border: 2px solid #A67C52;
+	text-align: center;
+	margin-top: 1em;
+}
+
+/* NAVIGATION */
+
+nav {
+	background-color: #E4C49B;
+	margin: 0.5em 0 1em 0;
+	padding: 8px;
+	border: 2px solid #C19A6B;
+	border-radius: 10px;
+	text-align: center;
+} 
+
+nav ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 8px;
+}
+
+nav li { display: inline; }
+
+nav a { 
+	display: inline-block;
+	text-decoration: none;
+	color: #000000;
+	background: transparent;
+	border: 1px solid #A67C52;
+	padding: 6px 10px;
+	border-radius: 8px;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+nav a:hover {
+	background-color: #C19A6B;
+	color: #FFFFFF;
+}
+
+/* MAIN CONTENT */
+
+main {
+	background-color: #FFFFFF;
+	padding: 10px;
+	border: 2px solid #C19A6B;
+	border-radius: 8px;
+}
+
+/* TYPOGRAPHY */
+
+h1,h2,h3 {
+	line-height: 1.25;
+	margin: 0 0 0.6em 0;
+}
+
+h1 { font-size: 2em;} 
+h2 { font-size: 2.5em; color: #4B3832; }
+h3  { font-size: 1.25em; color: #4B3832; }
+p { font-size: 1em; margin: 0 0 1em 0; }
+
+.about {
+	line-height: 1.75;
+	text-align: left;
+	margin: 0 0 1.25em 0;
+
+}
+
+/* LIST SECTION */
+
+main ul, main ol { margin: 0 0 1em 0; } 
+main li { margin: 0 0 0.4em 0; }
+
+/* FIG SECTION */
+
+figure { margin: 0 0 1em 0; }
+figcaption { font-size: 0.8em; color: #4B3832; margin-top: 0.5em; }
+
+/* RESUME CLASS SELECTORS */
+
+.resume dl { margin: 0 0 1em 0; }
+.resume dt { font-weight: 700; color: #4B3832; } 
+.resume dd { margin: 0 0 0.5em 0; }
+/* PORTFOLIO CLASS SELECTORS */
+.portfolio-grid { display: grid; grid-template-columns: 100%; gap: 8px; } 
+.project { background: #FFFDF7; border: 1px solid #C19A6B; padding: 8px; border-radius: 8px; }
+.project h3 { margin-top: 0; }
+table {width: 100%; border-collapse: collapse; font-size: 1em; }
+th, td { border: 1px solid #C19A6B; padding: 6px; text-align: left; }
+th { background: #E4C49B; color: #000000; }
+footer p { margin: 0.4em 0; font-size: 0.95em; }
+
+/* Other Formatting */
+.center { text-align: center; }
+		  
+figure.center img { display: block;
+					margin: 0 auto;
+					width: 200px; }
+		  
+.left-align { text-align: left; }
+
+/* Responsive Layout */
+
+@media (max-width: 38em) {
+	h1 { font-size: 1.75em; }
+	nav ul { gap: 6px; }
+nav a { padding: 6px; }
+}
